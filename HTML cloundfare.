@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>OtakuPlayhub</title>
+</head>
+<body>
+
+    <!-- Resto del Contenido -->
+    <header>
+        <h1>OtakuPlayhub</h1>
+        <p>¡Donde la pasión se encuentra con la diversión!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#anime">Anime</a></li>
+            <li><a href="#juegos">Juegos</a></li>
+            <li><a href="#musica">Música</a></li>
+            <li><a href="#descargas">Descargas</a></li>
+        </ul>
+    </nav>
+    <!-- Sección de Desarrollo -->
+    <section id="enDesarrollo" class="seccionDesarrollo">
+        <div class="centrar">
+            <p>¡Página en Desarrollo! Estoy trabajando para mejorar tu experiencia en la web.</p>
+        </div>
+    </section>
+
+    <section id="anime">
+        <h2>Anime</h2>
+        <p>¡Explora el fascinante mundo del anime!</p>
+    </section>
+
+    <section id="juegos">
+        <h2>Juegos</h2>
+        <p>¡Sumérgete en emocionantes aventuras y desafíos!</p>
+    </section>
+
+    <section id="musica">
+        <h2>Música</h2>
+        <p>¡Descubre nuevas melodías y bandas sonoras asombrosas!</p>
+    </section>
+
+    <section id="descargas">
+        <h2>Descargas</h2>
+        <p>¡Obtén tus contenidos favoritos para disfrutar en cualquier momento!</p>
+    </section>
+
+      <!-- disqus comentarios-->
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-anime1234r-github-io-web-descargas.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+     <!-- Pie de página -->
+    <footer>
+        <p>Sígueme en:</p>
+        <ul class="social-links">
+            <li><a href="https://www.youtube.com/@anime1234rr/videos" target="_blank">YouTube</a></li>
+            <li><a href="https://www.twitch.tv/anime1234rr" target="_blank">Twitch</a></li>
+            <li><a href="https://discord.gg/shQv6yjx" target="_blank">Discord</a></li>
+            <li><a href="https://twitter.com/anime1234r" target="_blank">Twitter</a></li>
+        </ul>
+        <p>Contáctame en: <a href="mailto:arandaa6262@gmail.com">arandaa6262@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
